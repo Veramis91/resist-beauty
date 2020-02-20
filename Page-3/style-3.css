@@ -1,0 +1,331 @@
+
+        body{
+            margin: 0;
+            padding: 0;
+            width:100%;
+            height: 100vh;            
+          }
+
+        .navigation-bar {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            width:100%;
+            position: fixed;
+            left:0;
+            top: 0;
+        }
+        
+        .flex-container {
+            flex-direction: row;
+            justify-content: center;
+            background-color: black;
+            margin: 5px;
+            width: 500px;
+            height:65px;
+        }
+        
+        .flex-item {
+            background-color: black;
+            margin: 10px;
+            flex-grow: 1;
+            text-align: center;
+            font-family: 'Press Start 2P', cursive;
+            color:aqua;
+        }
+        
+        .logo {;}
+    
+          a{
+           color: white;
+           text-decoration:none;
+            font-size: 1.2em;  
+            }
+            
+    
+
+       .section-1-grid {
+            margin-top: 150px;
+            margin-left: 65px;
+            margin-right: 15px;
+      
+           
+           }
+
+         .content {
+            font-family: 'Roboto Mono', monospace;
+            font-size: 1em;
+            color:black;
+             margin-left: 25px;
+             margin-right: 25px;
+         }
+
+
+       .tag { 
+        font-family: 'Roboto Mono', monospace;
+        font-size: .8 em;
+        font-weight: bolder;
+        text-align: center;
+
+              }
+
+       .title-1 {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 4 em;
+        text-align: center;
+         }
+
+        
+        .picture-intro {
+         text-align: center;
+         margin-top: 45px;
+         justify-content: center;
+
+    
+            
+             
+    
+         }
+
+         .section-2-grid {
+           margin-top: 50px;
+           margin-left: 65px;
+           margin-right: 15px;
+           margin-bottom: 150px;
+             
+      
+           
+           }
+
+        .content {
+            font-family: 'Roboto Mono', monospace;
+            font-size: 1em;
+            color:black;
+            justify-content: center;
+            text-align: center;
+            margin-top: 45px;
+
+        }
+ 
+            paragraph-1 {
+            font-family: 'Roboto Mono', monospace;
+            font-size: 1em;
+            color:black;
+        }
+
+           paragraph-2 {
+            font-family: 'Roboto Mono', monospace;
+            font-size: 1em;
+            color:black;
+        }
+ 
+         
+
+          .subtitle {
+           font-family: 'Roboto Mono', monospace;
+           font-size: 1.5 em;
+           font-weight: bolder;
+           text-align: center;
+           font-weight: bolder;
+           border: 5px solid chartreuse;
+            margin-top: 100px;         
+        
+
+            }
+
+         .column-grid {
+          height: 1620px;
+          width: 100%;
+          display: grid;
+          grid-template-columns: 1fr 1fr; 
+          grid-template-rows: 1fr 1fr 1fr; 
+          margin-bottom:   100px;   
+          grid-gap: 30px; 
+          }
+
+           .1-column {
+           width: 100%;
+           height: 100%;
+           }
+
+           
+          .img-1 {
+          width:100%;
+          height: 100%;
+          object-fit:scale-down;
+            margin-left: :15px;
+          }     
+
+
+             .img-2 {
+          width:100%;
+          height: 100%;
+          object-fit:scale-down;
+          }
+         
+               .img-3 {
+          width:100%;
+          height: 100%;
+          object-fit:scale-down;
+                      
+          }     
+
+
+             .img-4 {
+          width:100%;
+          height: 100%;
+          object-fit:scale-down;
+          }
+          
+            .img-5 {
+          width:100%;
+          height: 100%;
+          object-fit:scale-down;
+                  
+          }     
+
+
+             .img-6 {
+          width:100%;
+          height: 100%;
+          object-fit: scale-down;
+          }
+
+
+
+        
+         paragraph {
+            font-family: 'Roboto Mono', monospace;
+            font-size: 1.5em;
+          }
+
+        
+        .icons-grid {
+         margin-top: 25px;    
+         height: 10vh;
+         width: 100%;
+         display: grid;
+         grid-template-columns: 120px 150px 150px 150px 150px 150px 120px; 
+         grid-template-rows: auto 100px 100px;       
+         
+          }
+
+
+        .instagram-logo{
+         grid-column: 2/3;
+         grid-row: 2/3;
+         display: flex;
+         flex-direction: row;
+         justify-content: flex-end;
+    
+          }
+ 
+        
+
+        .send {
+        grid-column: 3/4;
+        grid-row: 2/3;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+         }
+
+       .up{
+    
+        margin-left: 75%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        position: fixed;
+    }
+
+         footer{
+         background: black;
+         padding: 15px 15px;
+         height: 6vh;
+         width:100%;
+         justify-content: center;
+          }
+
+
+
+
+        .footer-text{
+         font-family: 'Roboto Mono', monospace;
+         color: white;
+        display: flex;
+        flex-direction: row;
+            margin:3vh;
+        justify-content: left;
+         }
+
+
+
+
+@media (min-width:768px) and (max-width:1024px) {
+  .footer-container{
+    max-width: 600px;
+  }
+}      
+
+
+
+@media (max-width:767px){
+  .btn{
+    margin: 0;
+    width: 100%;
+    margin-top: 20px;
+    }
+    
+    
+    .picture-intro {
+        width: 100%;
+        height: 350px;
+           
+    }         
+    
+    
+    .column-grid {
+          
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+         grid-template-columns: 1fr; 
+          }
+    
+       .img-1 {
+          width:100%;
+          height: 100%;
+          }     
+
+
+             .img-2 {
+          width:100%;
+          height: 100%;
+          }
+         
+               .img-3 {
+          width:100%;
+          height: 100%;
+                      
+          }     
+
+
+             .img-4 {
+          width:100%;
+          height: 100%;
+          }
+          
+            .img-5 {
+          width:100%;
+          height: 100%;
+                  
+          }     
+
+
+             .img-6 {
+          width:100%;
+          height: 100%;
+          }
+
+}   
